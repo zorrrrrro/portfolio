@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import experience from '../data/experience.json';
+---
+
+<BaseLayout title="Experience">
+  <section class="px-6 py-12 text-white">
+    <h1 class="text-3xl font-bold mb-6">Experience</h1>
+
+    <div class="space-y-8">
+      {experience.map((job) => (
+        <div class="border-l-4 border-neon pl-4">
+          <h2 class="text-xl font-semibold">{job.title} @ {job.company}</h2>
+          <p class="text-sm text-gray-400">{job.location}</p>
+          <p class="text-sm text-gray-500">{job.start} – {job.end}</p>
+          {job.description && <p class="mt-2 text-gray-300">{job.description}</p>}
+        </div>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
