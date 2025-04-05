@@ -1,0 +1,27 @@
+[
+    {
+      "company": "Zomato",
+      "title": "Security Engineer",
+      "location": "Gurugram, Haryana, India",
+      "start": "Apr 2024",
+      "end": "Present",
+      "description": "Leading the deployment and management of the Data Leak Prevention Solution for Zomato, Blinkit and other entities. Dark Web monitoring for whole organization data. IT Team management for deploying and managing diff solutions. IT Risk and Compliance management with GRC Team. Cyber Security Awareness Training on org level for Tech and Non-Tech Teams"
+    },
+    {
+      "company": "Frux Technologies",
+      "title": "Cyber Security Solution Consultant",
+      "location": "Delhi, India",
+      "start": "Oct 2023",
+      "end": "Apr 2024",
+      "description": "Performing POCs for DLP and Firewall in customer environment. Creation of information security rules in DLP and Firewalls as per security compliance. Protecting data leakage by creating standard policies. Preparing RFP, RFI and Solution Designs according to different Industry Compliances."
+    },
+    {
+      "company": "Data Resolve Technologies",
+      "title": "Cyber Security Consultant",
+      "location": "Noida, Uttar Pradesh, India",
+      "start": "Aug 2022",
+      "end": "Oct 2023",
+      "description": "Performing POCs for DLP in customer environment. Creation of information security rules in DLP as per security compliance. Protecting data leakage by creating standard policies. Preparing RFP, RFI and Solution Designs according to different Industry Compliances."
+    }
+  ]
+  
