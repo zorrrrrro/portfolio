@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import educationRaw from '../data/education.json';
+
+
+interface EducationItem {
+  school: string;
+  degree: string;
+  start: string;
+  end: string;
+  notes?: string;
+  
+}
+
+const education = educationRaw as EducationItem[];
+
+---
+
+<BaseLayout title="Education">
+  <section class="px-6 py-12 text-white">
+    <h1 class="text-3xl font-bold mb-6">Education</h1>
+
+    <div class="space-y-8">
+      {education.map((edu) => (
+        <div class="border-l-4 border-neon pl-4">
+          <h2 class="text-xl font-semibold">{edu.school}</h2>
+          <p class="text-sm text-gray-400">{edu.degree}</p>
+          <p class="text-sm text-gray-500">{edu.start} – {edu.end}</p>
+          {edu.notes && <p class="mt-2 text-gray-300">{edu.notes}</p>}
+        </div>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

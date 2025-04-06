@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import skills from '../data/skills.json';
+---
+
+<BaseLayout title="Skills">
+  <section class="px-6 py-12 text-white">
+    <h1 class="text-3xl font-bold mb-6">Skills</h1>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      {skills.map((skill) => (
+        <div class="bg-gray-800 text-sm p-2 rounded hover:bg-neon hover:text-black transition">
+          {skill}
+        </div>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
