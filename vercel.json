@@ -1,0 +1,16 @@
+{
+    "redirects": [
+      {
+        "source": "/",
+        "has": [
+          {
+            "type": "host",
+            "value": "www.yashkant.com"
+          }
+        ],
+        "destination": "https://yashkant.com",
+        "permanent": true
+      }
+    ]
+  }
+  
