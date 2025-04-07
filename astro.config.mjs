@@ -1,8 +1,5 @@
-import { defineConfig } from 'astro/config';
-import github from '@astrojs/github-pages';
+import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  base: '/portfolio/',
-  output: 'static',
-  integrations: [github()],
+  integrations: [],
 });
